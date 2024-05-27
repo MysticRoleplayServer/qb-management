@@ -124,6 +124,7 @@ RegisterNetEvent('qb-bossmenu:server:FireEmployee', function(target)
 		if Employee.Functions.SetJob('unemployed', '0') then
 			Employee.Functions.Save()
 			TriggerClientEvent('QBCore:Notify', src, 'Employee fired!', 'success')
+			TriggerEvent('ps-multijob:server:removeJob', target)
 			TriggerEvent('qb-log:server:CreateLog', 'bossmenu', 'Job Fire', 'red', Player.PlayerData.charinfo.firstname .. ' ' .. Player.PlayerData.charinfo.lastname .. ' successfully fired ' .. Employee.PlayerData.charinfo.firstname .. ' ' .. Employee.PlayerData.charinfo.lastname .. ' (' .. Player.PlayerData.job.name .. ')', false)
 
 			if Employee.PlayerData.source then -- Player is online
