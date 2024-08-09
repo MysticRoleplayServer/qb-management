@@ -5,32 +5,14 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 
 Config.BossMenus = {
     police = {
-        vector3(-384.4347, -358.5047, 48.5328),
+        vector3(451.5, -984.99, 30.69), -- MRPD
+    },
+    bcso = {
+        vector3(1877.73, 3706.32, 34.24), -- BCSO
     },
     ambulance = {
-        vector3(1670.8519, 3655.2034, 35.3396), -- Sandy Hospital
-        vector3(-508.7286, -299.7179, 69.5230), --Mount Zonah
-    },
-    cardealer = {
-        vector3(2738.54, 3479.79, 56.48),
-    },
-    sasp = {
-        vector3(-360.5888, -361.6763, 20.2581),
-    },
-    westernmotors = {
-        vector3(-53.0178, 76.3358, 71.6309),
-    },
-    pdmdealer = {
-        vector3(-1248.2410, -350.2130, 37.3329),
-    },
-    lsmotors = {
-        vector3(142.7678, -1100.5977, 29.1951),
-    },
-    luxuryautos = {
-        vector3(-807.6310, -203.9385, 41.8517),
-    },
-    realtor = {
-        vector3(-714.88, 261.07, 84.14),
+        vector3(1842.18, 3679.95, 34.16), -- Sandy Hospital
+        vector3(351.76, -1404.08, 32.42), -- Davis Hospital
     },
 }
 
