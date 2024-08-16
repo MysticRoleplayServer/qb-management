@@ -5,14 +5,17 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 
 Config.BossMenus = {
     police = {
-        vector3(451.5, -984.99, 30.69), -- MRPD
+        vector3(450.98, -984.59, 30.65), -- MRPD
     },
     bcso = {
-        vector3(1877.73, 3706.32, 34.24), -- BCSO
+        vector3(1877.22, 3705.97, 34.05), -- BCSO
     },
     ambulance = {
         vector3(1842.18, 3679.95, 34.16), -- Sandy Hospital
-        vector3(351.76, -1404.08, 32.42), -- Davis Hospital
+        vector3(352.22, -1404.24, 33.03), -- Davis Hospital
+    },
+    government = {
+        vector3(-450.24, 1092.77, 328.4), -- Government Facility
     },
 }
 
