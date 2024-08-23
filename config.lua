@@ -17,6 +17,12 @@ Config.BossMenus = {
     government = {
         vector3(-450.24, 1092.77, 328.4), -- Government Facility
     },
+    sasp = {
+        vector3(1540.55, 815.7, 82.07), -- SASP
+    },
+    sadot = {
+        vector3(2335.61, 3128.09, 53.18), -- SADOT
+    }
 }
 
 Config.GangMenus = {
